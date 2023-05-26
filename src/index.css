@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-primary{
+    @apply text-[#ff6799]
+}
+.text-secondary{
+    @apply text-[#2ebeef]
+}
+.bg-primary{
+    @apply bg-[#ff6799]
+}
+.bg-secondary{
+    @apply bg-[#2ebeef]
+}
+.input{
+    @apply rounded-md border-0 bg-white px-3.5 py-2 text-slate-600  ring-inset  outline outline-1 focus:ring-1 focus:ring-[#ff6799] sm:text-sm sm:leading-6
+}
